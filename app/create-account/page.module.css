@@ -1,0 +1,25 @@
+.container p {
+    margin: 10px 0;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input, .form{
+    margin: 10px 0;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .input, .form{
+        width: 90%;
+    }
+}
