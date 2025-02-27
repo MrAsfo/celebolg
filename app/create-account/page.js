@@ -17,12 +17,12 @@ function page() {
             <form className={styles.form}>
                 <p>Account Type</p>
                 <label className={styles.label}>
-                    <input type="radio" name="choice" value="personal" />
+                    <input  className={styles.radio} type="radio" name="choice" value="personal" />
                     Personal
                 </label>
 
                 <label className={styles.label}>
-                    <input type="radio" name="choice" value="store" />
+                    <input  className={styles.radio} type="radio" name="choice" value="store" />
                     Store
                 </label>
             </form>
